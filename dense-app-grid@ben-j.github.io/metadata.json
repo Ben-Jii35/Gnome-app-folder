@@ -1,0 +1,9 @@
+{
+  "uuid": "dense-app-grid@ben-j.github.io",
+  "name": "Dense App Grid",
+  "description": "Affiche davantage d'applications par page dans la vue « Applications » : nombre de colonnes et de lignes fixes, taille d'icône réglable, espacements et marges compressés. Fonctionne sous Wayland (aucun redémarrage de session nécessaire).",
+  "shell-version": ["50"],
+  "settings-schema": "org.gnome.shell.extensions.dense-app-grid",
+  "url": "https://github.com/ben-j/dense-app-grid",
+  "version": 1
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.dense-app-grid"
+          path="/org/gnome/shell/extensions/dense-app-grid/">
+
+    <key name="columns" type="i">
+      <default>8</default>
+      <range min="2" max="16"/>
+      <summary>Colonnes par page</summary>
+      <description>Nombre de colonnes d'icônes dans la grille d'applications.</description>
+    </key>
+
+    <key name="rows" type="i">
+      <default>5</default>
+      <range min="2" max="12"/>
+      <summary>Lignes par page</summary>
+      <description>Nombre de lignes d'icônes dans la grille d'applications.</description>
+    </key>
+
+    <key name="icon-size" type="i">
+      <default>0</default>
+      <range min="0" max="96"/>
+      <summary>Taille des icônes</summary>
+      <description>Taille des icônes en pixels. 0 = automatique (GNOME choisit parmi 96, 64, 48, 32, 24, 16).</description>
+    </key>
+
+    <key name="row-spacing" type="i">
+      <default>6</default>
+      <range min="0" max="64"/>
+      <summary>Espacement vertical minimal</summary>
+      <description>Espace minimal entre deux lignes, en pixels.</description>
+    </key>
+
+    <key name="column-spacing" type="i">
+      <default>6</default>
+      <range min="0" max="64"/>
+      <summary>Espacement horizontal minimal</summary>
+      <description>Espace minimal entre deux colonnes, en pixels.</description>
+    </key>
+
+    <key name="max-row-spacing" type="i">
+      <default>16</default>
+      <range min="0" max="128"/>
+      <summary>Espacement vertical maximal</summary>
+      <description>Espace maximal entre deux lignes, en pixels.</description>
+    </key>
+
+    <key name="max-column-spacing" type="i">
+      <default>16</default>
+      <range min="0" max="128"/>
+      <summary>Espacement horizontal maximal</summary>
+      <description>Espace maximal entre deux colonnes, en pixels.</description>
+    </key>
+
+    <key name="page-padding-vertical" type="i">
+      <default>8</default>
+      <range min="0" max="128"/>
+      <summary>Marge verticale de page</summary>
+      <description>Marge haute et basse de la page de la grille, en pixels.</description>
+    </key>
+
+    <key name="page-padding-horizontal" type="i">
+      <default>8</default>
+      <range min="0" max="128"/>
+      <summary>Marge horizontale de page</summary>
+      <description>Marge gauche et droite de la page de la grille, en pixels.</description>
+    </key>
+
+    <key name="tile-padding" type="i">
+      <default>6</default>
+      <range min="0" max="32"/>
+      <summary>Marge interne des tuiles</summary>
+      <description>Marge interne de chaque tuile d'application (zone cliquable autour de l'icône et du nom), en pixels.</description>
+    </key>
+
+    <key name="apply-to-folders" type="b">
+      <default>true</default>
+      <summary>Appliquer aux dossiers</summary>
+      <description>Applique également une grille personnalisée à l'intérieur des dossiers d'applications.</description>
+    </key>
+
+    <key name="folder-columns" type="i">
+      <default>4</default>
+      <range min="2" max="12"/>
+      <summary>Colonnes dans les dossiers</summary>
+      <description>Nombre de colonnes dans la grille d'un dossier.</description>
+    </key>
+
+    <key name="folder-rows" type="i">
+      <default>4</default>
+      <range min="2" max="12"/>
+      <summary>Lignes dans les dossiers</summary>
+      <description>Nombre de lignes dans la grille d'un dossier.</description>
+    </key>
+
+  </schema>
+</schemalist>
